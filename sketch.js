@@ -24,6 +24,7 @@ function preload() {
 }
 
 function setup() {
+  pixelDensity(2);
   createCanvas(600, 600, WEBGL);
   angleMode(DEGREES);
   setAttributes('antialias', true);
